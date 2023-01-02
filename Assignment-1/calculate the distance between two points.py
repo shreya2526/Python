@@ -1,0 +1,6 @@
+x1= int(input("enter the X1 coordinate of point A: "))
+y1= int(input("enter the Y1 coordinate of point A: "))
+x2= int(input("enter the X2 coordinate of point B: "))
+y2= int(input("enter the Y1 coordinate of point B: "))
+distance= ((x2-x1)**2 + (y2-y1)**2)
+print("The distance of two points A and B is: ",distance)

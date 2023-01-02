@@ -1,0 +1,5 @@
+lst=input("enter elements: ")
+user_lst=lst.split()
+print("Inputed list: ",user_lst)
+user_lst.clear()
+print("List is empty: ",user_lst)

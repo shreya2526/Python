@@ -1,0 +1,5 @@
+n=int(input("how many elements you want insert: "))
+input_list=input("enter elements using space: ")
+user_list=input_list.split()
+print("list: ",user_list)
+print("The 3rd, 4th and 5th items of the list is: ",user_list[2:5])
